@@ -18,3 +18,6 @@ factor : (PLUS | MINUS) factor | INTEGER | LPAREN expr RPAREN
 It is known as a recursive descent parser since, it is a kind of top-down parser built from a set of mutually 
 recursive procedures (or a non-recursive equivalent) where each such procedure usually implements one of the productions of the grammar.
 
+To run the file - 
+Simply go to cmd prompt and run the calculator_interpreter.py file. Keep giving inputs / expressions as long as you want.
+Enjoy :D
