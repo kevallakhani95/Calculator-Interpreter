@@ -11,9 +11,9 @@ To produce an output to this language you need to follow various procedures -
 4. Print the result to the output console.
 
 This is a recursive-descent parser / interpreter and the grammer for the same is given below - 
-expr : term((PLUS | MINUS) term)*
-term : factor((MUL | DIV) factor)*
-factor : (PLUS | MINUS) factor | INTEGER | LPAREN expr RPAREN
+1. expr : term((PLUS | MINUS) term)*
+2. term : factor((MUL | DIV) factor)*
+3. factor : (PLUS | MINUS) factor | INTEGER | LPAREN expr RPAREN
 
 It is known as a recursive descent parser since, it is a kind of top-down parser built from a set of mutually 
 recursive procedures (or a non-recursive equivalent) where each such procedure usually implements one of the productions of the grammar.
