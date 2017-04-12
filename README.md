@@ -19,5 +19,6 @@ It is known as a recursive descent parser since, it is a kind of top-down parser
 recursive procedures (or a non-recursive equivalent) where each such procedure usually implements one of the productions of the grammar.
 
 To run the file - 
-Simply go to cmd prompt and run the calculator_interpreter.py file. Keep giving inputs / expressions as long as you want.
+Simply go to cmd prompt(windows) / Terminal(Linux shell) and switch to the python directory where the file exists, run the calculator_interpreter.py file. Keep giving inputs / expressions as long as you want.
+
 Enjoy :D
