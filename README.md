@@ -2,7 +2,8 @@
 
 This is my first code towards developing an Interpreter. Since, it is my first take on developing an Interpreter from scratch,
 I figured I would develop one for a calculator using Python. 
-Consider calculator input (for eg. 5+3, 5-8*9, 5*(2-1) and more) as a language.
+
+Consider calculator input (for eg. 5+3, 5-8*9, 5*(2-1) and more) as a language. Whatever input you give, it gives you the answer output for the same. This is a recursive-descent parser to analyze and evaluate an expression and produce a final result. This interpreter is developed from scratch and gives an in-depth view of how the interpreter operates.  
 
 To produce an output to this language you need to follow various procedures - 
 1. Lexical analysis of the input to break the sentance apart into tokens, one token at a time.
